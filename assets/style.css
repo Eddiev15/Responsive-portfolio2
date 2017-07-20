@@ -14,35 +14,16 @@ body {
 	text-align: center;
 }
 
-#brand {
-	height: 100%;
-	background: #4aaaa5;
-	color: #fff;
-}
 
 #brand h1 {
 	margin-top: 3px;
-}
-
-#nav {
-	height: 70px;
-	padding-right: 50px;
-	text-align: right;
-	line-height: 70px;
+	background: #4aaaa5;
+	color: #fff;
 }
 
 #nav span {
 	padding: 5px;
 	font-size: 1.05em;
-}
-
-#connect {
-	background: #fff;
-	color: #4aaaa5;
-	text-align: center;
-	font-size: 1.4em;
-	margin: 35px 35px 15px 15px;
-	padding: 15px;
 }
 
 #connect h3 {
@@ -67,13 +48,7 @@ body {
 		       INDEX.HTML
 ****************************************/
 
-#about {
-	background: #fff;
-	height: 370px;
-	width: 5%;
-	padding: 15px;
-	overflow: auto;
-}
+
 
 #about h2 {
 	font-size: 1.5em;
