@@ -1,6 +1,7 @@
 /***************************************
 	  Shared CSS across Entire Site
 ****************************************/
+
 body {
 	height: 700px;
 	background-image: url("images/concrete-texture.png");
@@ -92,6 +93,7 @@ a:hover {
 /***************************************
 		       INDEX.HTML
 ****************************************/
+
 #about {
 	margin: 15px 10% 35px 10%;
 	background: #fff;
@@ -112,8 +114,7 @@ a:hover {
 #about img {
 	width: 90%;
 	height: 90%;
-	margin: 10px 15px 0px 15px;
-	
+	margin: 10px 15px 0px 15px;	
 }
 
 #about p {
@@ -122,12 +123,12 @@ a:hover {
 	margin-right: 15px;
 	padding-top: 10px;
 	text-align: justify; 
-
 }
 
 /***************************************
 		      PORTFOLIO.HTML
 ****************************************/
+
 ul {
 	padding: 0px;
 }
@@ -238,7 +239,6 @@ ul {
 #message {
 	height: 185px;
 	margin-bottom: 10px;
-	
 }
 
 #submit[type=submit] {
@@ -256,3 +256,5 @@ ul {
 	cursor: pointer;
 	background-color: #3a8783;
 }
+
+
