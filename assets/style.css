@@ -1,6 +1,13 @@
 /***************************************
 	  Shared CSS across Entire Site
 ****************************************/
+[class*="col-sm"] {
+	border: 1px solid red;
+}
+
+[class*="row"] {
+	border: 1px solid red;
+}
 
 body {
 	height: 700px;
@@ -67,7 +74,7 @@ a:hover {
 #connect h3 {
 	font-size: 1.7em;
 	font-weight: bold;
-	padding: 15px 0px 0px 15px;
+	padding: 0px 0px 0px 15px;
 	color: #4aaaa5;
 }
 
@@ -77,7 +84,7 @@ a:hover {
 }
 
 #connect img {
-	margin: 5px 3px 0px 3px;
+	margin: 0px 3px 0px 3px;
     height: 54px;
 }
 
@@ -102,7 +109,7 @@ a:hover {
 #about h2 {
 	font-size: 1.7em;
 	font-weight: bold;
-	padding: 15px 0px 0px 15px;
+	padding: 0px 0px 0px 15px;
 	color: #4aaaa5;
 }
 
@@ -256,5 +263,93 @@ ul {
 	cursor: pointer;
 	background-color: #3a8783;
 }
+
+/***************************************
+		      RESPONSIVE
+****************************************/
+
+@media (min-width: 768px) {
+
+		/*TABLET*/
+
+	#about {
+		margin: 15px 0% 15px 10%;
+    	width: 80%;
+	}
+
+	#about img {
+		width: 45%;;
+		margin-bottom: 25px;
+		float: left;
+	}
+
+	#connect {
+		width: 80%;
+		margin: 15px 0% 15px 10%;
+		height: 160px;
+	}
+
+	#connect h3 {
+		padding: 0px 0px 0px 15px;
+	}
+
+	#contact {
+		margin: 15px 0% 15px 10%;
+    	width: 80%;
+	}
+
+	#portfolio {
+		margin: 15px 0% 15px 10%;
+    	width: 80%;
+	}
+
+	#portfolio li {
+		width: 45%;
+	    margin: 10px 0px 10px 20px;
+	    float: left;
+	}
+
+
+}
+
+		/*DESKTOP*/
+
+@media (min-width: 992px) {
+
+	#about {
+		margin: 15px -6% 15px 10%;
+    	width: 50%;
+	}
+
+	#connect {
+		width: 25%;
+	}
+
+	#contact {
+    	width: 50%;
+    	margin: 15px -6% 15px 10%;
+
+	}
+
+	#portfolio {
+    	width: 50%;
+    	margin: 15px -6% 15px 10%;
+
+	}
+
+	#portfolio li {
+		width: 45%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
 
 
